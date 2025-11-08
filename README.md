@@ -5,19 +5,20 @@
 **Property:** 1803-243 Franklin Street, Melbourne VIC 3000 | 33 Camberwell Road, Hawthorn East VIC 3123
 **Document Custodian:** Chawakorn Kamnuansil
 **Repository Established:** 8 November 2025
-**Last Updated:** 9 November 2025
+**Last Updated:** 9 November 2025 (EVIDENCE INDEX added)
 
 ---
 
 ## TABLE OF CONTENTS
 1. [Authentication Certificate](#authentication-certificate)
 2. [Chain of Custody](#chain-of-custody)
-3. [Evidence Summary](#evidence-summary)
-4. [Technical Verification](#technical-verification)
-5. [File Manifest and Metadata](#file-manifest-and-metadata)
-6. [Admissibility Framework](#admissibility-framework)
-7. [Access and Integrity Protocols](#access-and-integrity-protocols)
-8. [References](#references)
+3. [Evidence Index](#evidence-index)
+4. [Evidence Summary](#evidence-summary)
+5. [Technical Verification](#technical-verification)
+6. [File Manifest and Metadata](#file-manifest-and-metadata)
+7. [Admissibility Framework](#admissibility-framework)
+8. [Access and Integrity Protocols](#access-and-integrity-protocols)
+9. [References](#references)
 
 ---
 
@@ -98,6 +99,68 @@ I, **Chawakorn Kamnuansil**, declare that:
   - *Residential Tenancies Act 1997* (Vic), s 32 and Schedule – procedural rules
   - *VCAT Act 1998* (Vic), s 98 – flexible evidence rules
   - *County Court Act 1958* (Vic), r 37.02 et seq. – discovery and disclosure
+
+---
+
+## EVIDENCE INDEX
+
+### EVIDENCE IDENTIFICATION SYSTEM: EVID-001 to EVID-201
+
+All 201 PDF documents in this repository are assigned unique **EVIDENCE IDENTIFICATION (EVID)** numbers for convenient cross-referencing in legal proceedings. The numbering system follows chronological order of collection:
+
+**EVID-001**: 241016-residential-rental-agreement-1803-243-franklin-st.pdf (16 Oct 2024)
+**EVID-201**: 251028-Receipt # 95582.pdf (28 Oct 2025)
+
+### EVIDENCE INDEX QUICK REFERENCE
+
+The complete EVIDENCE INDEX is provided in: **EVIDENCE_INDEX.csv**
+
+This CSV contains the following columns for each document:
+
+| Column | Purpose | Example |
+|--------|---------|---------|
+| **EVID ID** | Unique evidence reference number | EVID-045 |
+| **Filename** | PDF filename for location and download | 250612 - Re_ Follow-up... |
+| **Date** | Document date (extracted from filename) | 12/06/2025 |
+| **Category** | Document classification | Maintenance, Receipt, VCAT Order |
+| **Subject** | Document subject line (first 100 chars) | Water damage repair follow-up |
+| **Message ID** | Email message ID (if applicable) | CAAV=8vvDk0Nd0o1Kx... |
+| **Email** | Sender/recipient email address | tenant@mail.com |
+| **SHA256** | First 16 characters of SHA256 hash | 1ecdab33c7e3e156... |
+| **File Size (KB)** | PDF file size | 42.5 |
+| **Modified** | Last modification date | 31/10/2025 |
+
+### HOW TO USE THE EVIDENCE INDEX
+
+**To locate and reference a document in legal submissions:**
+1. Open **EVIDENCE_INDEX.csv** in spreadsheet application (Excel, Google Sheets, Numbers)
+2. Search for document by date, subject, or category
+3. Note the **EVID ID** (e.g., EVID-045)
+4. Download the PDF using the filename from the same row
+5. Verify integrity by comparing SHA256 hash against **APPENDIX A – SHA256_512.csv**
+6. In court/tribunal submissions, reference as: **"EVID-045: [Brief Description]"**
+
+**Example citation in legal documents:**
+> "As evidenced in EVID-045 (Maintenance communication dated 12 June 2025), the landlord's agent acknowledged receipt of the tenant's repair request..."
+
+### EVIDENCE DISTRIBUTION BY CATEGORY
+
+| Category | EVID Range | Count | Key Documents |
+|----------|------------|-------|----------------|
+| **Tenancy & Rental** | EVID-001 | 1 | Rental agreement |
+| **Receipts & Payments** | EVID-002–EVID-024 | 23 | Rent receipts, bond payments, invoices |
+| **Maintenance Communications** | EVID-025–EVID-064 | 40 | Water damage, repairs, inspections |
+| **Legal Notices** | EVID-065–EVID-077 | 13 | Notice to vacate, notice of entry, demand letters |
+| **VCAT Applications** | EVID-078–EVID-092 | 15 | VCAT case filings, applications, reminders |
+| **Court Orders** | EVID-093–EVID-117 | 25 | VCAT orders, RDRV determinations, judge rulings |
+| **Exhibits & Evidence** | EVID-118–EVID-121 | 4 | Photographic exhibits (A, B, C, D) |
+| **Medical Documentation** | EVID-122–EVID-123 | 2 | Medical certificates, expense reports |
+| **Employment Records** | EVID-124–EVID-125 | 2 | Attendance warnings (for completeness) |
+| **Property Management** | EVID-126–EVID-135 | 10 | Management notices, trade lists, updates |
+| **Hearing & Procedural** | EVID-136–EVID-138 | 3 | Hearing notices, scheduling confirmations |
+| **Administrative** | EVID-139–EVID-201 | 63 | Settlement correspondence, system notices, miscellaneous documents |
+
+**Total: 201 EVID entries across 13 month period (16 Oct 2024 – 28 Oct 2025)**
 
 ---
 
