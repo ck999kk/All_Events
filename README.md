@@ -6,7 +6,7 @@
 **Property:** 1803-243 Franklin Street, Melbourne VIC 3000 | 33 Camberwell Road, Hawthorn East VIC 3123
 **Document Custodian:** Chawakorn Kamnuansil
 **Repository Established:** 8 November 2025
-**Last Updated:** 9 November 2025 (EVIDENCE INDEX added)
+**Last Updated:** 9 November 2025 (EVIDENCE INDEX with detailed content analysis added)
 
 ---
 
@@ -146,6 +146,61 @@ This CSV contains the following columns for each document:
 | **Administrative** | EVID-139–EVID-201 | 63 | Settlement correspondence, system notices, miscellaneous documents |
 
 **Total: 201 EVID entries across 13 month period (16 Oct 2024 – 28 Oct 2025)**
+
+### ENHANCED EVIDENCE INDEX WITH CONTENT ANALYSIS
+
+**EVIDENCE_INDEX_DETAILED.csv** provides comprehensive document analysis including:
+
+| Column | Details | Examples |
+|--------|---------|----------|
+| **EVID ID** | Unique reference number | EVID-045 |
+| **Filename** | PDF filename | 250612 - Re_ Follow-up... |
+| **Date** | Document date | 12/06/2025 |
+| **Category** | 16 detailed categories | See category breakdown below |
+| **Subject** | Document title (80 chars) | Water damage repair follow-up |
+| **Topics** | Key topics (up to 3) | Water & Leak; Repairs & Maintenance |
+| **Importance** | Critical / High / Medium | Critical (87), High (92), Medium (22) |
+| **Parties** | Involved entities | Franklin St Property; Property Manager/Areal |
+| **Summary** | Content excerpt | First line extracted from PDF |
+| **File Size** | PDF size in KB | 42.5 |
+| **Modified** | Last modification date | 31/10/2025 |
+
+**Document Categories (16 types):**
+
+| Category | Count | Key Issues | EVID Examples |
+|----------|-------|-----------|----------------|
+| Receipt & Payment | 61 | Rent, bond, invoices | EVID-002, 004, 007, 198 |
+| Water Damage & Leak | 40 | Water damage, flooding, leaks | EVID-003, 006, 009, 013 |
+| Wall & Carpet Damage | 27 | Stains, marks, damage | EVID-025, 032, 045, 052 |
+| Maintenance Request | 23 | Repairs, broken items | EVID-010, 011, 012, 015 |
+| Legal Demand | 11 | Formal demands, statements | EVID-041, 042, 043, 048 |
+| Email System | 8 | Verification codes, auto-replies | EVID-030, 055, 136, 152 |
+| Tenancy Agreement | 5 | Rental agreement, lease | EVID-001, 165, 175 |
+| Property Management | 5 | Manager notices, trade lists | EVID-002, 003, 009, 026 |
+| VCAT Application | 5 | VCAT cases, applications | EVID-090, 091, 104, 105 |
+| Administrative | 3 | Misc. notices, documents | EVID-047, 071, 168 |
+| Notice to Vacate | 3 | Vacate notices, instructions | EVID-118, 119, 120 |
+| VCAT Order | 3 | Tribunal orders, decisions | EVID-110, 111, 112 |
+| Property Inspection | 2 | Inspection reports, conditions | EVID-022, 024 |
+| Court Order | 2 | Court determinations | EVID-107, 108 |
+| Employment | 2 | Attendance warnings | EVID-124, 125 |
+| Notice of Entry | 1 | Access/entry notices | EVID-122 |
+
+**Importance Classification:**
+- **Critical (87 docs)**: VCAT orders, court decisions, legal demands, formal notices
+- **High (92 docs)**: Maintenance issues, repairs, water damage, formal communications
+- **Medium (22 docs)**: Receipts, payments, administrative notices
+
+**Key Topics Identified:**
+- Rent & Payment (79 docs)
+- Repairs & Maintenance (60 docs)
+- Water & Leak (43 docs)
+- Tenancy Termination (38 docs)
+- Property Access (25 docs)
+- Legal Action (22 docs)
+- Settlement (12 docs)
+- Evidence (15 docs)
+- Health & Medical (2 docs)
 
 ---
 
