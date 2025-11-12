@@ -1,0 +1,5 @@
+# Evidence Register System Requirements
+# Python 3.7+ required
+
+# Core dependencies (all built-in to Python standard library)
+# No external dependencies required for core functionality
